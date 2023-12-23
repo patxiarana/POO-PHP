@@ -11,10 +11,15 @@ class Producto
     {
        
     }
+    public function mostrarProducto() {
+     echo "El producto es: " . $this->nombre . "y su precio es de:" .  $this->precio ; 
+
+    }
 };
 
 
 $producto = new Producto('tablet', 200, true);
+$producto->mostrarProducto(); 
 
 
 echo "<pre>";
@@ -22,8 +27,7 @@ var_dump($producto);
 echo "</pre>";
 
 $producto2 = new Producto("monitor curvo", 300, true);
-
-
+$producto2->mostrarProducto();
 
 echo "<pre>";
 var_dump($producto2);
