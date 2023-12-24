@@ -1,0 +1,17 @@
+{
+    "name": "usuario/introduccion-phpoop_inicio",
+    "autoload": {
+        "psr-4": {
+            "App\\": "./clases"
+        }
+    },
+    "authors": [
+        {
+            "name": "patxi",
+            "email": "patxiarana05@gmail.com"
+        }
+    ],
+    "require": {
+        "firebase/php-jwt": "^6.10"
+    }
+    }
